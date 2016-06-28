@@ -5,11 +5,9 @@ function outputToDom(message) {
   //reference to out put div
   let outputDiv = $("#output-div");
 
-  let planet = message;
-
-  for ( var key in planet ) {
+  for ( var key in message ) {
     let string = key + ":   ";
-    string += planet[key];
+    string += message[key];
     outputDiv.append(`<p>${string}</p>`);
   }
   outputDiv.append('<p>&nbsp</p>');

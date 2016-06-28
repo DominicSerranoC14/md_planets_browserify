@@ -56,8 +56,8 @@
       "Probes/orbiters/explorers": "None"
     },
 
-    "mercury": {
-      "Name": "Mercury",
+    "saturn": {
+      "Name": "Saturn",
       "Year-discovered": 1902,
       "Mass": "15,000 tons",
       "Size": "Huge",
@@ -67,8 +67,8 @@
       "Probes/orbiters/explorers": "None"
     },
 
-    "mercury": {
-      "Name": "Mercury",
+    "uranus": {
+      "Name": "Uranus",
       "Year-discovered": 1902,
       "Mass": "15,000 tons",
       "Size": "Huge",
@@ -78,8 +78,8 @@
       "Probes/orbiters/explorers": "None"
     },
 
-    "mercury": {
-      "Name": "Mercury",
+    "neptune": {
+      "Name": "Neptune",
       "Year-discovered": 1902,
       "Mass": "15,000 tons",
       "Size": "Huge",

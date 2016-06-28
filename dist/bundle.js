@@ -26,12 +26,30 @@ PlanetAJAX()
     let mercury = PlanetModule.Mercury(data);
     PlanetModule.Output(mercury);
 
+    let venus = PlanetModule.Venus(data);
+    PlanetModule.Output(venus);
+
     let earth = PlanetModule.Earth(data);
     PlanetModule.Output(earth);
 
+    let mars = PlanetModule.Mars(data);
+    PlanetModule.Output(mars);
+
+    let jupiter = PlanetModule.Jupiter(data);
+    PlanetModule.Output(jupiter);
+
+    let saturn = PlanetModule.Saturn(data);
+    PlanetModule.Output(saturn);
+
+    let uranus = PlanetModule.Uranus(data);
+    PlanetModule.Output(uranus);
+
+    let neptune = PlanetModule.Neptune(data);
+    PlanetModule.Output(neptune);
+
   });
 
-},{"./planets":5}],2:[function(require,module,exports){
+},{"./planets":8}],2:[function(require,module,exports){
 "use strict";
 
 function getEarthOb(select) {
@@ -43,13 +61,40 @@ module.exports = getEarthOb;
 },{}],3:[function(require,module,exports){
 "use strict";
 
+function getJupiterOb(select) {
+  return select.planets[0].jupiter;
+}
+
+module.exports = getJupiterOb;
+
+},{}],4:[function(require,module,exports){
+"use strict";
+
+function getMarsOb(select) {
+  return select.planets[0].mars;
+}
+
+module.exports = getMarsOb;
+
+},{}],5:[function(require,module,exports){
+"use strict";
+
 function getMercuryOb(select) {
   return select.planets[0].mercury;
 }
 
 module.exports = getMercuryOb;
 
-},{}],4:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
+"use strict";
+
+function getNeptuneOb(select) {
+  return select.planets[0].neptune;
+}
+
+module.exports = getNeptuneOb;
+
+},{}],7:[function(require,module,exports){
 "use strict";
 
 
@@ -57,11 +102,9 @@ function outputToDom(message) {
   //reference to out put div
   let outputDiv = $("#output-div");
 
-  let planet = message;
-
-  for ( var key in planet ) {
+  for ( var key in message ) {
     let string = key + ":   ";
-    string += planet[key];
+    string += message[key];
     outputDiv.append(`<p>${string}</p>`);
   }
   outputDiv.append('<p>&nbsp</p>');
@@ -69,24 +112,65 @@ function outputToDom(message) {
 
 module.exports = outputToDom;
 
-},{}],5:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 "use strict";
 
- // finds the add file, must be in the same directory. Don't need add.js, just name of file
+//references each planet js file
 let Mercury = require("./mercury");
+let Venus = require("./venus");
 let Earth = require("./earth");
+let Mars = require("./mars");
+let Jupiter = require("./jupiter");
+let Saturn = require("./saturn");
+let Uranus = require("./uranus");
+let Neptune = require("./neptune");
+
+//references the output function module
 let Output = require("./outputfunc");
 
 let Planets = {
   Mercury,
+  Venus,
   Earth,
+  Mars,
+  Jupiter,
+  Saturn,
+  Uranus,
+  Neptune,
   Output
 
 };// store required files in an object
 
 module.exports = Planets;// export the object
 
-},{"./earth":2,"./mercury":3,"./outputfunc":4}]},{},[1])
+},{"./earth":2,"./jupiter":3,"./mars":4,"./mercury":5,"./neptune":6,"./outputfunc":7,"./saturn":9,"./uranus":10,"./venus":11}],9:[function(require,module,exports){
+"use strict";
+
+function getSaturnOb(select) {
+  return select.planets[0].saturn;
+}
+
+module.exports = getSaturnOb;
+
+},{}],10:[function(require,module,exports){
+"use strict";
+
+function getUranusOb(select) {
+  return select.planets[0].uranus;
+}
+
+module.exports = getUranusOb;
+
+},{}],11:[function(require,module,exports){
+"use strict";
+
+function getVenusOb(select) {
+  return select.planets[0].venus;
+}
+
+module.exports = getVenusOb;
+
+},{}]},{},[1])
 
 
 //# sourceMappingURL=bundle.js.map
