@@ -1,0 +1,93 @@
+{
+  "planets": [{
+
+    "mercury": {
+      "Name": "Mercury",
+      "Year-discovered": 1902,
+      "Mass": "15,000 tons",
+      "Size": "Huge",
+      "Distance-from-sun": "8 yards",
+      "Atmosphere-composition": "Nitrogen",
+      "Satellites": 3,
+      "Probes/orbiters/explorers": "None"
+    },
+
+    "venus": {
+      "Name": "Venus",
+      "Year-discovered": 1902,
+      "Mass": "15,000 tons",
+      "Size": "Huge",
+      "Distance-from-sun": "8 yards",
+      "Atmosphere-composition": "Nitrogen",
+      "Satellites": 3,
+      "Probes/orbiters/explorers": "None"
+    },
+
+    "earth": {
+      "Name": "Earth",
+      "Year-discovered": 1902,
+      "Mass": "15,000 tons",
+      "Size": "Huge",
+      "Distance-from-sun": "8 yards",
+      "Atmosphere-composition": "Nitrogen",
+      "Satellites": 3,
+      "Probes/orbiters/explorers": "None"
+    },
+
+    "mars": {
+      "Name": "Mars",
+      "Year-discovered": 1902,
+      "Mass": "15,000 tons",
+      "Size": "Huge",
+      "Distance-from-sun": "8 yards",
+      "Atmosphere-composition": "Nitrogen",
+      "Satellites": 3,
+      "Probes/orbiters/explorers": "None"
+    },
+
+    "jupiter": {
+      "Name": "Jupiter",
+      "Year-discovered": 1902,
+      "Mass": "15,000 tons",
+      "Size": "Very Huge",
+      "Distance-from-sun": "8 yards",
+      "Atmosphere-composition": "Nitrogen",
+      "Satellites": 3,
+      "Probes/orbiters/explorers": "None"
+    },
+
+    "mercury": {
+      "Name": "Mercury",
+      "Year-discovered": 1902,
+      "Mass": "15,000 tons",
+      "Size": "Huge",
+      "Distance-from-sun": "8 yards",
+      "Atmosphere-composition": "Nitrogen",
+      "Satellites": 3,
+      "Probes/orbiters/explorers": "None"
+    },
+
+    "mercury": {
+      "Name": "Mercury",
+      "Year-discovered": 1902,
+      "Mass": "15,000 tons",
+      "Size": "Huge",
+      "Distance-from-sun": "8 yards",
+      "Atmosphere-composition": "Nitrogen",
+      "Satellites": 3,
+      "Probes/orbiters/explorers": "None"
+    },
+
+    "mercury": {
+      "Name": "Mercury",
+      "Year-discovered": 1902,
+      "Mass": "15,000 tons",
+      "Size": "Huge",
+      "Distance-from-sun": "8 yards",
+      "Atmosphere-composition": "Nitrogen",
+      "Satellites": 3,
+      "Probes/orbiters/explorers": "None"
+    }
+
+  }]
+}
